@@ -13,21 +13,6 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://fa2d25cd-24a2-423c-cc4c-881fb5d704d1@kr.highwill.cf:59520?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4&type=tcp&headerType=none#%E7%94%B2%E9%AA%A8%E6%96%87%E9%A6%96%E5%B0%94
-vless://03ac5300-9ddd-43de-a1ae-a54e53d0a4c1@74.48.82.165:33537?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=ypiqqm4J345RXkvkeVRGbE8M-Fs9dS0KuJqdn-kdYQU&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BDcc
-hysteria2://0cf697bb-be69-4b23-8f09-cc8554c56e3c@74.48.82.165:37590?sni=www.bing.com&alpn=h3&insecure=1#%E7%BE%8E%E5%9B%BDcc
-vless://25d61bf5-2d2d-43d5-851c-6e0cdaa2637c@202.61.230.41:35287?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=O15NlZYQgCnCQUixX4rlz3qirMsI5_Hlrwkx7G9v9UA&allowInsecure=1&type=tcp&headerType=none#%E5%BE%B7%E5%9B%BDnetcup
-ss://YWVzLTEyOC1nY206U1NzNjY2Njg4ODgu@138.2.92.157:35027#%E7%94%B2%E9%AA%A8%E6%96%87%E6%96%B0%E5%8A%A0%E5%9D%A1
-vless://6438b153-4c47-4392-be4b-286fac217778@us.525888.xyz:44323?type=tcp&security=reality&sni=icloud.cdn-apple.com&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&flow=xtls-rprx-vision&fp=chrome#浪浪山@US圣何塞-arm|4Qas.love@xray.com
-vless://156420a3-5e88-488d-82c6-2019878a4965@[2001:41d0:a:5b18:be24:11ff:fe6c:9174]:10213?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=Wh6x06J4PvCFxLD8NpTvdDcMXIEDStRqM6CGVvt7bH4&type=tcp&headerType=none#%E6%B3%95%E9%B8%A1
-vless://aa11d3fe-6d15-4654-d395-c08e316068d8@sg3.525888.xyz:17118?encryption=none&flow=xtls-rprx-vision&security=reality&sni=one-piece.com&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%9A%84aws
-vless://cf10c368-722e-682d-b276-5fa459595091@www.visa.com.hk:443?encryption=none&security=tls&sni=us.588.dpdns.org&allowInsecure=1&type=ws&host=us.588.dpdns.org&path=%2F#us-bp
-vless://cf10c368-722e-682d-b276-5fa459595091@fl.686.dpdns.org:443?encryption=none&security=tls&sni=fl.686.dpdns.org&allowInsecure=1&type=ws&host=fl.686.dpdns.org&path=%2F#us2-bp
-vless://6cd80dab-6182-425d-b00a-c7b18b949ba6@ynxj.576787.xyz:443?encryption=none&security=tls&sni=ynxj.576787.xyz&allowInsecure=1&type=ws&host=ynxj.576787.xyz&path=%2F#%E8%B6%8A%E5%8D%9720G
-vless://2faaf996-d2b0-440d-8258-81f2b05dd0e4@104.18.40.104:443?encryption=none&security=tls&sni=sap-jp.coolc.de&allowInsecure=1&type=ws&host=sap-jp.coolc.de&path=%2Fvless-argo%3Fed%3D2560#%E6%97%A5%E6%9C%AC-sap
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIummmea4rzHlj7fpuKEiLA0KICAiYWRkIjogImNmLjg3Nzc3NC54eXoiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiZGJiZGVhNzEtOTIxZS00ODA1LWI3NzEtMmJhNGNhMGI5M2QxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJub25lIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ2aXNpb24taG9saWRheXMtcmVhZC1wcm9jZXNzaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwNCiAgInBhdGgiOiAiL3ZtZXNzLWFyZ28/ZWQ9MjU2MCIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJ2aXNpb24taG9saWRheXMtcmVhZC1wcm9jZXNzaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogImNocm9tZSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIua3oeaAu+aWsOWKoOWdoSIsDQogICJhZGQiOiAiMTA0LjE4LjQwLjEwNCIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI5Njk2ZmFlZS00NmZlLTQ3MTctYjIzMC04MGM0NDgyMGI0NzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm1hby1zZy5jb29sYy5kZSIsDQogICJwYXRoIjogIi92bWVzcy1hcmdvP2VkPTI1NjAiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAibWFvLXNnLmNvb2xjLmRlIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogImNocm9tZSINCn0=
-https://dash.pqjc.site/api/v1/client/subscribe?token=1382e3183d2275de1e2287148d4be623
 `
 
 let urls = [];
@@ -845,6 +830,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 		});
 	}
 }
+
 
 
 
